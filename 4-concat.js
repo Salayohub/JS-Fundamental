@@ -1,8 +1,10 @@
 //concat argument
-const concat = process.argv.slice(2);
+const args = ['c', 'cool'];
 
-if (concat[0] && concat[1]) {
-    console.log(`${concat[0]} is ${concat[1]}`);
+if (args[0] && args[1]) {
+  console.log(args[0] + ' is ' + args[1]);
+} else if (args[0]) {
+  console.log(args[0] + ' is undefined');
 } else {
-    console.log("0 argument");
+  console.log('undefined is undefined');
 }
