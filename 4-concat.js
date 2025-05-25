@@ -1,8 +1,5 @@
 //concat argument
-const concat = ['confirm','and cool'];
+const arg1 = process.argv[2];
+const arg2 = process.argv[3];
 
-if (concat[0] && concat[1]) {
-    console.log(`${concat[0]} python is  ${concat[1]}`);
-} else {
-    console.log("0 argument");
-}
+console.log(arg1 + ' is ' + arg2);
