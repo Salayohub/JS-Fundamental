@@ -1,10 +1,8 @@
 //concat argument
-const args = ['c', 'cool'];
+const concat = ['confirm','and cool'];
 
-if (args[0] && args[1]) {
-  console.log(args[0] + ' is ' + args[1]);
-} else if (args[0]) {
-  console.log(args[0] + ' is undefined');
+if (concat[0] && concat[1]) {
+    console.log(`${concat[0]} python is fun ${concat[1]}`);
 } else {
-  console.log('undefined is undefined');
+    console.log("0 argument");
 }
